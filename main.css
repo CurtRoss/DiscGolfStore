@@ -1,0 +1,98 @@
+/* Style the top navigation bar */
+body{
+    background-image: url("");
+  }
+  .navbar {
+      overflow: hidden; /* Hide overflow */
+      background-color: #333; /* Dark background color */
+    }
+    
+    /* Style the navigation bar links */
+    .navbar a {
+      float: left; /* Make sure that the links stay side-by-side */
+      display: block; /* Change the display to block, for responsive reasons */
+      color: white; /* White text color */
+      text-align: center; /* Center the text */
+      padding: 14px 20px; /* Add some padding */
+      text-decoration: none; /* Remove underline */
+    }
+    
+    /* Right-aligned link */
+    .navbar a.right {
+      float: right; /* Float a link to the right */
+    }
+    
+    /* Change color on hover/mouse-over */
+    .navbar a:hover {
+      background-color: #ddd; /* Grey background color */
+      color: black; /* Black text color */
+    }
+    
+    .header{
+      background-image: url("images/discgolfbanner.jfif");
+      background-size: 100% 100%;
+      padding: 80px;
+      text-align: center;
+      color: chartreuse;
+    }
+    .header h1{
+      font-size: 40px;
+    }
+    * {
+       box-sizing: border-box; 
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .leftside{
+        background-image: url(images/Disc_Golf_Basket.jpg);
+        flex: 30%;
+        background-size: 100% 100%;
+        padding: 20px;
+    }
+    .leftside ul{
+        
+        list-style: none;
+        font-size: large;
+        color: chartreuse;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        
+    }
+    .products{
+        text-align: center;
+        flex: 50%;
+        background-color: black;
+        padding: 20px;
+        color: chartreuse;
+        
+    }
+    .rowtwo{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .productsrowtwo{
+        flex: 50%
+
+    }
+    .products h3{
+        font-size: xx-large;
+        font-family: fantasy;
+        font-style: oblique;
+
+    }
+    
+    .rightside{
+        flex: 20%;
+        background-color: grey;
+        font-size: larger;
+        text-align: center;
+    }
+    .rightside ul{
+        list-style: none;
+    }
+    .rightside h3{
+        font-size: larger;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: chartreuse;
+    }
